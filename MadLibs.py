@@ -1,6 +1,6 @@
 """
 This program generates passages that are generated in mad-lib format
-Author: Katherin 
+Stole the story from Katherin
 """
 
 # The template for the story
