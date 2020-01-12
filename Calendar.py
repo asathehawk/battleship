@@ -1,6 +1,7 @@
-"""In case, you're too stupefied or my product is too ugly for you to understand, this is a calendar."""
+"""In case, you're too sleepy or my product is too ugly for you to understand, this is a calendar."""
+
 from time import sleep, strftime
-user_first_name = 'Asha'
+user_first_name = 'Asa'
 calendar = {}
 def welcome():
   print 'Yo, ' + user_first_name + ', glad you\'re back'
@@ -42,7 +43,7 @@ def start_calendar():
         calendar[date] = event
     elif user_choice == 'D':
       if len(calendar.key()) < 1:
-        print 'The calendar is laready empty'
+        print 'The calendar is already empty'
       else:
         event = raw_input('What we tryna get rid of?: ')
         for date in calendar.keys():
